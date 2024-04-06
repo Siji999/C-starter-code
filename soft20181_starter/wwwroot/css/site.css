@@ -1,0 +1,275 @@
+/* Write your CSS here*/
+
+.contact-form {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #fcfcfc;
+  padding: 20px 50px 40px;
+  border: 1px solid #eee;
+  font-family: sans-serif;
+}
+
+.contact-form * {
+  box-sizing: border-box;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+    .contact-form .success {
+        border: 1px solid green;
+        padding: 10px;
+        text-align: center;
+        background: #d7e6d7;
+        margin: 15px 0 30px 0;
+    }
+
+        .contact-form .success span {
+            font-weight: bold;
+        }
+
+        .contact-form .form-element {
+            margin-bottom: 15px;
+        }
+
+    .contact-form .form-element span {
+        color: red;
+        font-size: 0.8em;
+        padding-left: 5px;
+    }
+
+.contact-form input[type="text"], .contact-form textarea {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.contact-form textarea {
+    min-height: 140px;
+}
+ 
+
+.contact-form button[type="submit"] {
+  display: block;
+  margin: 20px auto 0;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  color: #eee;
+  font-weight: 700;
+  background: #207cca;
+}
+
+.bg-color {
+    background-color: #d4ceaed8;
+}
+
+.search {
+    border-radius: 16px;
+    background: #e4e4e4;
+    /* padding: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 10px;
+}
+
+.search input[type="text"] {
+    /* outline: none; */
+    border-radius: 12px;
+    padding: 12px 6px;
+    background: inherit;
+    width: 50%;
+    /* border: 0; */
+    border-color: transparent;
+    transition: border-color 0.3s;
+}
+
+.search input::placeholder {
+    font-size: 18px;
+    /* margin-top: 10px; */
+    /* padding-top: 5px; */
+}
+
+.search input[type="text"]:focus {
+    /* border: 0; */
+    /* border-color: transparent; */
+    border: 0 transparent #e4e4e4;
+}
+
+button {
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    padding: 16px 24px;
+}
+
+.page-footer {
+    width: 100%;
+    white-space: nowrap;
+    line-height: 40px;
+}
+
+.min-height-600 {
+    min-height: 500px;
+}
+
+.details {
+    color: rgba(34, 34, 34, 0.6);
+}
+
+.username {
+    margin-top: .7rem !important;
+}
+
+.intro-img {
+    background-image: url(../Images/tech1.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 20px;
+    color: #040409;
+    opacity: 0.9;
+}
+
+/*Events page styling*/
+.event-listing {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event-listing:hover {
+    transform: scale(1.1);
+}
+
+.remove-highlight {
+    text-decoration: none;
+}
+
+.event {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.event img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    event-listing {
+        padding: 10px;
+    }
+
+    .event img {
+        max-width: 80px;
+    }
+}
+
+
+/*Event details */
+.event-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.close-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.register-button {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.close-button:hover {
+    background-color: red;
+}
+
+.event-detail {
+    margin-bottom: 20px;
+}
+
+    .event-detail img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+@media screen and (max-width: 600px) {
+    .event-details {
+        padding: 10px;
+    }
+}
+
+
+/*Contact styling*/
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d4ceaed8;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+    button:hover {
+        background-color: #333;
+    }
+
+@media screen and (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+}

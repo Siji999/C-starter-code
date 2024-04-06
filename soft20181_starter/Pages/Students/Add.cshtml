@@ -1,0 +1,34 @@
+﻿@page
+@model soft20181_starter.Pages.Students.AddModel
+@{
+}
+
+@* <h1>Add Student</h1> *@
+<h1>Add Events</h1>
+
+<div class="col-6">
+	<form method="post">
+		<div class="mb-3">
+			<input type="text" class="form-control" asp-for="@Model.TheStudent.NNumber">
+		</div>
+		<div class="mb-3">
+			<input type="text" class="form-control" asp-for="@Model.TheStudent.Name">
+		</div>
+
+		@* <div class="mb-3">
+			<input type="text" class="form-control" asp-for="@Model.TheStudent.Title">
+		</div>
+		<div class="mb-3">
+			<input type="text" class="form-control" asp-for="@Model.TheStudent.Description">
+		</div>
+		<div class="mb-3">
+			<input type="text" class="form-control" asp-for="@Model.TheStudent.Location">
+		</div>
+		<div class="mb-3">
+			<input type="file" class="form-control" asp-for="@Model.TheStudent.Image">
+		</div> *@
+
+		<button type="submit">Save</button>
+	</form>
+</div>
+

@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - soft20181_starter</title>
+
+    @*  Section for CSS Start *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+    @*  Section for CSS Start *@
+
+</head>
+<body>
+
+   @*  Header Section Start *@
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-color border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">SJX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Students/Index">Students</a>
+                        </li>
+                        @if(User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Students/Add">Admin</a>
+                            </li>
+                        }
+                    </ul>
+
+                    @* ... *@
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    @*  Header Section End *@
+
+   
+
+    <div class="container min-height-600">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    @*  Footer Section Start *@
+    <footer class="border-top page-footer text-muted bg-color">
+        <div class="container">
+            <div id="bgColor">
+                <div class="foot-wrapper d-flex flex-column justify-content-between flex-md-row">
+                    <div class="first-foot">
+                        <p class="fw-bold fs-5">CONNECT WITH US</p>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle"> NG1 5GN Tabolt Street Sandhills </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle"> SJX </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle"> SJX </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <!-- <img src="./assets/images/X svg.svg" alt="x" class="x"> -->
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle"> sjx </span>
+                        </div>
+                    </div>
+                    <div class="second-foot">
+                        <p class="fw-bold fs-5">CONTACTS</p>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            </span>
+                            <span class="social-media-handle"> +44 7392 650742 </span>
+                        </div>
+                        <div class="social-media">
+                            <span class="icons">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                            <span class="social-media-handle"> +44 7392 650742 </span>
+                        </div>
+                    </div>
+                    <div class="third-foot">
+                        <p class="fw-bold fs-5">Subscribe to get offers</p>
+                        <p class="Unsubscribe">Unsubscribe or change preference</p>
+                        <div class="Subscribe d-flex flex-row justify-content-between">
+                            <span class="search">
+                                <i class="fa fa-envelope-o"
+                                   id="envelope"
+                                   aria-hidden="true"></i>
+                                <input type="text" placeholder="Email Address" name="search" />
+                            </span>
+                            <button type="submit" class="submit">
+                                Subscribe
+                                @* <i class="fa fa-search"></i> *@
+                            </button>
+                        </div>
+                        <p class="details">
+                            For details of how we use your information, <br /> please see our
+                            <a href="#" class="details">privacy policy</a>
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="copyright">2023 © All rights reserved by SJX</div>
+        </div>
+
+        @* <div class="container">
+            &copy; 2024 - SOFT20181 Starter Code
+        </div> *@
+    </footer>
+    @*  Header Section End *@
+
+
+
+    @*  Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @*  Add Site Wide JavaScript End *@
+
+
+    @*  Section for Scripts Start *@
+    @await RenderSectionAsync("Scripts", required: false)
+    @*  Section for Scripts End *@
+
+</body>
+</html>
