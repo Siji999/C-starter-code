@@ -1,0 +1,665 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\attending-list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\attending-list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\events\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\events\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\eventappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\eventappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\studentappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\studentappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\myappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\myappuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\students.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\migrations\\20240331144726_addedsupportforidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\migrations\\20240331144726_addedsupportforidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\migrations\\studentappdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\migrations\\studentappdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\pages\\students\\students.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\pages\\students\\students.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|c:\\users\\segun\\desktop\\c-starter-code-main\\c-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\migrations\\20240330132847_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3480F3A6-C6A8-4621-B448-34EAB2A8E36C}|soft20181_starter\\soft20181_starter.csproj|solutionrelative:soft20181_starter\\migrations\\20240330132847_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Attending-list.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Attending-list.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Attending-list.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Attending-list.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Attending-list.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T17:18:43.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Edit.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Events\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Edit.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Events\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T17:09:17.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Add.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Events\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Add.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Events\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T17:08:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Events\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events\\Index.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Events\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T16:58:30.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Events.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\Events.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Events.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\Events.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:56:35.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\EventAppDbContext.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\EventAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\EventAppDbContext.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\EventAppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:47:53.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\StudentAppDbContext.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\StudentAppDbContext.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\StudentAppDbContext.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\StudentAppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T13:15:37.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T14:13:27.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyAppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\MyAppUser.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\MyAppUser.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\MyAppUser.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\MyAppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T01:02:57.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAvwHgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:36:00.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Index.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:35:47.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Contact.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T14:13:18.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Student.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T13:12:23.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Models\\Contact.cs",
+              "RelativeToolTip": "soft20181_starter\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T13:11:11.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Add.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Add.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Add.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T00:49:27.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Events.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Events.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Events.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T20:00:25.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Index.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Index.cshtml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAABoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T20:46:05.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Edit.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Edit.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:12:44.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Edit.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:38:40.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Add.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Add.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Add.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:36:30.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACsAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T15:41:10.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "soft20181_starter\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "soft20181_starter\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAOoAAAAAAAAAAAAgwBIBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-03T14:17:56.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Index.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T14:25:35.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T15:52:46.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Detail.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Detail.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Detail.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T01:57:48.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T21:28:22.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T15:35:51.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Program.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Program.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Program.cs",
+              "RelativeToolTip": "soft20181_starter\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T15:46:52.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T14:18:09.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\login.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\login.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\login.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:41:46.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T23:38:46.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\login.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\login.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T23:41:17.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "soft20181_starter\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "soft20181_starter\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-31T15:30:29.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240331144726_AddedSupportForIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\20240331144726_AddedSupportForIdentity.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Migrations\\20240331144726_AddedSupportForIdentity.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\20240331144726_AddedSupportForIdentity.cs",
+              "RelativeToolTip": "soft20181_starter\\Migrations\\20240331144726_AddedSupportForIdentity.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAQwFgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:47:27.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Students.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Students.cshtml.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Students.cshtml.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Students.cshtml.cs",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Students.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T13:45:00.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Students.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Students.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\Students.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\Students.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\Students.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T13:38:55.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StudentAppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\StudentAppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Migrations\\StudentAppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\StudentAppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "soft20181_starter\\Migrations\\StudentAppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:57:46.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\View.cshtml",
+              "RelativeDocumentMoniker": "soft20181_starter\\Pages\\Students\\View.cshtml",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Pages\\Students\\View.cshtml",
+              "RelativeToolTip": "soft20181_starter\\Pages\\Students\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T20:39:57.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240330132847_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\20240330132847_FirstMigration.cs",
+              "RelativeDocumentMoniker": "soft20181_starter\\Migrations\\20240330132847_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\Migrations\\20240330132847_FirstMigration.cs",
+              "RelativeToolTip": "soft20181_starter\\Migrations\\20240330132847_FirstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T13:28:48.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\appsettings.json",
+              "RelativeDocumentMoniker": "soft20181_starter\\appsettings.json",
+              "ToolTip": "C:\\Users\\Segun\\Desktop\\C-starter-code-main\\C-starter-code-main\\soft2081-starter-code-main\\soft20181_starter\\appsettings.json",
+              "RelativeToolTip": "soft20181_starter\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-30T13:21:49.444Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
