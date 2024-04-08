@@ -5,3 +5,53 @@
 }
 
 <h1> @title </h1>
+
+<div class="input-group-edit rounded">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+</div>
+
+@foreach (var individualEvent in Model.EventList)
+{
+    <section class="event-listing">
+        <a class="remove-highlight" asp-page="Detail" asp-route-id="@individualEvent.Id">
+            <div class="event">
+                @* <img src=@individualEvent.Image alt="Event 1" /> *@
+                <img src="data:image;base64,@Convert.ToBase64String(individualEvent.ImageData)" alt="Event Image" />
+                <div>
+                    <h3>Title: @individualEvent.Title </h3>
+                    <p>Location: @individualEvent.Location </p>
+                    <p>Date: @individualEvent.Date </p>
+                    <p>Number of Attendees: @individualEvent.NumberOfAttendees </p>
+                </div>
+            </div>
+        </a>
+    </section>
+}
+
+@* <section class="event-listing">
+    <a class="remove-highlight" asp-page="/Detail">
+        <div class="event">
+            <img src="./Images/event1.jpg" alt="Event 1" />
+            <div>
+                <h2>Innovation Expo 2023: Unleashing Creative Potential</h2>
+                <p>Location: Manchester United Kingdom</p>
+                <p>Date: December 17th 2023</p>
+            </div>
+        </div>
+    </a>
+</section> *@
+
+@* <section class="event-listing">
+    <a class="remove-highlight" asp-page="Detail">
+        <div class="event">
+            <img src="./Images/event2.jpg" alt="Event 2" />
+            <div>
+                <h2>Tech Innovative Summit 2023</h2>
+                <p>Location: London United Kingdom</p>
+                <p>Date: December 22nd 2023</p>
+            </div>
+        </div>
+    </a>
+</section> *@
+

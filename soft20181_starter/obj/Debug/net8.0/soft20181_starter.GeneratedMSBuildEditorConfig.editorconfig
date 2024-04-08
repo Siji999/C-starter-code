@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Attending-list.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kaW5nLWxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,16 +70,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Events.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Events/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Events/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRzXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Events/Edit.cshtml]
@@ -100,26 +100,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Students/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcQWRkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Students/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Students/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Students/Students.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcU3R1ZGVudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/Students/View.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Segun/Desktop/C-starter-code-main/C-starter-code-main/soft2081-starter-code-main/soft20181_starter/Pages/_ViewImports.cshtml]

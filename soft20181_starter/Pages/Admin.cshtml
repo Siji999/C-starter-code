@@ -1,0 +1,63 @@
+﻿@page
+@model soft20181_starter.Pages.AdminModel
+@{
+}
+
+<h1>Admin page</h1>
+
+<h3>Manage User</h3>
+<table class="table">
+    <thead>
+        <tr>
+            @* <th>User Id</th> *@
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Roles</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var user in Model.UsersWithRoles) *@
+        @foreach (var user in Model.UserList)
+        {
+            <tr>
+                @* <td>@user.Id</td> *@
+                <td>@user.Email</td>
+                <td>@string.Join(", ", await Model._userMgr.GetRolesAsync(user))</td>
+                <td>
+                    <form method="post">
+                        <input type="hidden" name="userId" value="@user.Id" />
+                        <select name="Role">
+                            <option value="Admin">Admin</option>
+                            <option value="User">User</option>
+                        </select>
+                        <button type="submit">Assign Role</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Manage Events</h3>
+@foreach (var individualEvent in Model.EventList)
+{
+    <section class="event-listing-2">
+        <a class="remove-highlight" asp-page="Events/Detail" asp-route-id="@individualEvent.Id">
+            <div class="event-2">
+                @* <img src=@individualEvent.Image alt="Event 1" /> *@
+                <img src="data:image;base64,@Convert.ToBase64String(individualEvent.ImageData)" alt="Event Image" />
+                <div>
+                    <h3>Title: @individualEvent.Title </h3>
+                    <p>Location: @individualEvent.Location </p>
+                    <p>Date: @individualEvent.Date </p>
+                    <p>Number of Attendees: @individualEvent.NumberOfAttendees </p>
+                </div>
+            </div>
+        </a>
+        <div class="d-flex justify-content-end">
+            <a class="btn btn-primary" asp-page="Events/Edit" asp-route-id="@individualEvent.Id">Edit</a>
+            <a class="btn btn-danger mx-3" asp-page="Events/Edit" asp-route-id="@individualEvent.Id" asp-page-handler="Delete">Delete</a>
+        </div>
+    </section>
+}

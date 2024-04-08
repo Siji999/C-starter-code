@@ -1,0 +1,24 @@
+﻿@page
+@model soft20181_starter.Pages.Events.DetailModel
+@{
+}
+
+@* @Model.Id *@
+<h1 class="text-center">@Model.EventDetail.Title</h1>
+
+<section class="event-details">
+    <div class="event-detail">
+        <img src="data:image;base64,@Convert.ToBase64String(Model.EventDetail.ImageData)" alt="Event Image" />
+        <p>Location: @Model.EventDetail.Location </p>
+        <p>Date: @Model.EventDetail.Date</p>
+        <p> @Model.EventDetail.Description </p>
+    </div>
+</section>
+<div class="close">
+    <span>
+        <a class="register-button" asp-page="../Attending-list">Register</a>
+    </span>
+    <span>
+        <a class="close-button" asp-page="Index">Close</a>
+    </span>
+</div>

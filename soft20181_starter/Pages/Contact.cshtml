@@ -4,24 +4,31 @@
 }
 
 <section class="card">
-    <form id="contactForm" method="post">
+    <form method="post">
         @* <label for="name">Name:</label> *@
-        <input asp-for="@Model.ContactInfo.Name" placeholder="Name" type="text" id="name" name="name" pattern="[A-Za-z ]+" title="Only letters and spaces allowed" required />
-        <span asp-validation-for="@Model.ContactInfo.Name"></span>
+        <input asp-for="@Model.ContactInfo.Name" placeholder="Name" type="text" class="form-control" />
+        <span asp-validation-for="@Model.ContactInfo.Name" class="text-danger"></span>
 
         @* <label for="email">Email:</label> *@
-        <input asp-for="@Model.ContactInfo.Email" placeholder="Email" type="email" id="email" name="email" required />
-        <span asp-validation-for="@Model.ContactInfo.Email"></span>
+        <input asp-for="@Model.ContactInfo.Email" placeholder="Email" type="email" class="form-control" />
+        <span asp-validation-for="@Model.ContactInfo.Email" class="text-danger"></span>
 
-        <input asp-for="@Model.ContactInfo.Phone" type="text" placeholder="Phone" />
-        <span asp-validation-for="@Model.ContactInfo.Phone"></span>
+        <input asp-for="@Model.ContactInfo.Phone" type="text" placeholder="Phone" class="form-control" />
+        <span asp-validation-for="@Model.ContactInfo.Phone" class="text-danger"></span>
 
-        @* <label for="message">Message:</label> *@
-        <textarea id="message" name="message" rows="4" required></textarea>
+        <textarea type="text" class="form-control" asp-for="@Model.ContactInfo.Message" placeholder="Message" row="4"></textarea>
+        <span asp-validation-for="@Model.ContactInfo.Message" class="text-danger"></span>
 
-        <button type="button" onclick="validateForm()">Submit</button>
+        <button type="submit">Submit</button>
     </form>
 </section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+
 
 @* <div class="contact-form">
     <h2 class="header">Leave a Message</h2>

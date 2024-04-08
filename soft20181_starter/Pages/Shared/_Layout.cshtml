@@ -30,18 +30,15 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Events">Events</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Events/Index">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Students/Index">Students</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact Us</a>
                         </li>
                         @if(User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-page="/Students/Add">Admin</a>
+                                <a class="nav-link text-dark" asp-area="" asp-page="Admin">Admin</a>
                             </li>
                         }
                     </ul>

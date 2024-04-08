@@ -118,7 +118,7 @@ namespace soft20181_starter.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
-                user.Course = "Software Engineering";
+                //user.Course = "Software Engineering";
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 //Create the roles

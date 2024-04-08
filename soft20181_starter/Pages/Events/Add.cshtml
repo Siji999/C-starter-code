@@ -2,3 +2,46 @@
 @model soft20181_starter.Pages.Events.AddModel
 @{
 }
+
+<div class="col-6">
+    <form method="post" enctype="multipart/form-data">
+        <div class="mb-3 form-group">
+            <label asp-for="@Model.Events.Title"></label>
+            <input type="text" class="form-control" asp-for="@Model.Events.Title" placeholder="Title">
+            <span asp-validation-for="@Model.Events.Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-group">
+            <label asp-for="@Model.Events.Location"></label>
+            <input type="text" class="form-control" asp-for="@Model.Events.Location" placeholder="Location">
+            <span asp-validation-for="@Model.Events.Location" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-group">
+            <label asp-for="@Model.Events.NumberOfAttendees"></label>
+            <input type="text" class="form-control" asp-for="@Model.Events.NumberOfAttendees" placeholder="Number of Attendees">
+            <span asp-validation-for="@Model.Events.NumberOfAttendees" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-group">
+            <label asp-for="@Model.Events.Date"></label>
+            <input type="text" class="form-control" asp-for="@Model.Events.Date" placeholder="Date">
+            <span asp-validation-for="@Model.Events.Date" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-group">
+            @* <input type="file" class="form-control" asp-for="@Model.Events.ImageData" placeholder="Image"> *@
+            <label asp-for="ImageFile"></label>
+            <input asp-for="ImageFile" type="file" class="form-control" placeholder="Image" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+        <div class="mb-3 form-group">
+            <label asp-for="@Model.Events.Description"></label>
+            <textarea type="text" class="form-control" asp-for="@Model.Events.Description" placeholder="Description" row="4"></textarea>
+            @* <input type="text" class="form-control" asp-for="@Model.Events.Description" placeholder="Description"> *@
+            <span asp-validation-for="@Model.Events.Description" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

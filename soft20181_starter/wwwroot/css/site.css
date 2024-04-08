@@ -143,8 +143,16 @@ button {
 }
 
 /*Events page styling*/
-.event-listing {
+.event-listing-2 {
     width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*transition: transform 0.3s ease-in-out;*/
+}
+.event-listing {
+    width: 90%;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -167,6 +175,18 @@ button {
     align-items: center;
 }
 
+.event-2 {
+    /*border-bottom: 1px solid #ddd;*/
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.event-2 img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
 .event img {
     max-width: 100px;
     margin-right: 20px;
@@ -178,6 +198,14 @@ button {
     }
 
     .event img {
+        max-width: 80px;
+    }
+    
+    event-listing-2 {
+        padding: 10px;
+    }
+
+    .event-2 img {
         max-width: 80px;
     }
 }
@@ -272,4 +300,13 @@ button {
     section {
         padding: 10px;
     }
+}
+
+/*Search bar style*/
+.input-group-edit {
+    position: relative;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    width: 50%;
 }

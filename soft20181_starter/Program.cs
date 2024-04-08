@@ -8,14 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-builder.Services.AddDbContext<StudentAppDbContext>(options => options.UseSqlite("Data Source=FileDb.Sqlite"));
+builder.Services.AddDbContext<EventAppDbContext>(options => options.UseSqlite("Data Source=FileDb.Sqlite"));
+//var Configuration = builder.Configuration;
+//builder.Services.AddDbContext<StudentAppDbContext>(options => options.UseSqlite(Configuration.GetConnectionString("Default")));
 
 //builder.Services.AddDefaultIdentity<MyAppUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<StudentAppDbContext>();
 
 builder.Services.AddIdentity<MyAppUser, IdentityRole>()
     .AddDefaultTokenProviders()
     .AddDefaultUI()
-    .AddEntityFrameworkStores<StudentAppDbContext>();
+    .AddEntityFrameworkStores<EventAppDbContext>();
 
 var app = builder.Build();
 
@@ -34,7 +36,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 app.MapRazorPages();
